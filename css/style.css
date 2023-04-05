@@ -14,7 +14,6 @@
 }
 
 header{
-    height: 100px;
     background-color: orange;
     color: white;
 }
@@ -23,10 +22,11 @@ nav{
     height: 100%;
     width: 80%;
     margin: 0 auto;
+    padding: 20px 0px ;
 }
 
 #logo{
-    height: 30px;
+    height: 25px;
 }
 
 .left-nav{
@@ -52,7 +52,7 @@ ul{
 
 .right-nav-images{
     width: 17px;
-    height: 100%;
+    
 }
 
 .justify-center{
