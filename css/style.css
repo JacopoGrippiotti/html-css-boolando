@@ -69,3 +69,13 @@ ul{
     background-color: chartreuse;
     margin-top: 40px;
 }
+
+.container>div{
+    width: calc(100% / 3);
+    height: 40%;
+    background-color: rgb(207, 28, 28);
+}
+
+.wrap{
+    flex-wrap:wrap;
+}
