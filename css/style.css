@@ -9,9 +9,14 @@
     flex-direction: row;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 header{
     height: 100px;
     background-color: orange;
+    color: white;
 }
 
 nav{
@@ -27,19 +32,24 @@ nav{
 
 .left-nav{
     height: 100%;
-    width: 20%;
+    width: 10%;
 }
 
 .right-nav{
     height: 100%;
-    width: 20%;
+    width: 10%;
 }
 
 .central-nav{
     height: 100%;
-    width: 60%;
+    width: 20%;
 }
 
 ul{
     list-style-type: none;
+}
+
+.right-nav-images{
+    width: 17px;
+    height: 100%;
 }
