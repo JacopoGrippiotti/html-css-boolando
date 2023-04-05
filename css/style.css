@@ -16,6 +16,8 @@
 header{
     background-color: orange;
     color: white;
+    position: fixed;
+    width: 100%;
 }
 
 nav{
@@ -73,7 +75,7 @@ ul{
 
 .container>div{
     width:31%;
-    height: 40%;
+    height: 45%;
     background-color: rgb(207, 28, 28);
 }
 
@@ -83,4 +85,12 @@ ul{
 
 .align-content{
     align-content: space-between;
+}
+
+body{
+    position: relative;
+}
+
+main{
+    padding-top: 60px;
 }
