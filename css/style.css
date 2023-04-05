@@ -18,6 +18,7 @@ header{
     color: white;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 nav{
@@ -73,12 +74,6 @@ ul{
     padding-bottom: 80px;
 }
 
-.container>div{
-    width:31%;
-    height: 45%;
-    background-color: rgb(207, 28, 28);
-}
-
 .wrap{
     flex-wrap:wrap;
 }
@@ -93,4 +88,18 @@ body{
 
 main{
     padding-top: 60px;
+}
+
+.card{
+    position: relative;
+    width:32%;
+    height: 45%;
+    background-color: rgb(207, 28, 28);
+}
+
+.hover-card{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: aquamarine;
 }
