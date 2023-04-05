@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-flex{
+.flex{
     display: flex;
     flex-direction: row;
 }
@@ -23,4 +23,23 @@ nav{
 
 #logo{
     height: 30px;
+}
+
+.left-nav{
+    height: 100%;
+    width: 20%;
+}
+
+.right-nav{
+    height: 100%;
+    width: 20%;
+}
+
+.central-nav{
+    height: 100%;
+    width: 60%;
+}
+
+ul{
+    list-style-type: none;
 }
