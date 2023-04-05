@@ -8,3 +8,8 @@ flex{
     display: flex;
     flex-direction: row;
 }
+
+header{
+    height: 100px;
+    background-color: orange;
+}
