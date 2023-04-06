@@ -154,5 +154,6 @@ main{
 }
 
 .description-discount-underlined{
-    color: black;
+    color: rgba(0, 0, 0, 0.564);
+    text-decoration-line: line-through;
 }
