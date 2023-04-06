@@ -88,7 +88,7 @@ main{
 .container-card{
     position: relative;
     width: 33%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .card{
@@ -105,12 +105,12 @@ main{
 
 .discount-red{
     background-color: red;
-    padding: 10px;
+    padding: 5px;
 }
 
 .discount-green{
     background-color: green;
-    padding: 10px;
+    padding: 5px;
 }
 
 .discount-container{
@@ -150,16 +150,20 @@ main{
 
 .description-price-red{
     color: red;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .description-discount-underlined{
     color: rgba(0, 0, 0, 0.564);
     text-decoration-line: line-through;
+    font-size: 13px;
 }
 
 footer{
     color: white;
     background-color: black;
+    
 }
 
 .gap{
@@ -167,12 +171,14 @@ footer{
 }
 
 .footer-list>li{
-    padding-right: 5px;
+    padding-right: 7px;
 }
 
 .footer-list{
     margin-top: 7px;
+    font-size: 14px;
 }
 .footer-container{
-    padding: 30px 0px;
+    padding: 25px 0px;
+    margin-top: 0;
 }
