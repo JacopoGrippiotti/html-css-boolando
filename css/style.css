@@ -11,6 +11,7 @@
 
 .space-between{
     justify-content: space-between;
+    gap: 5px;
 }
 
 header{
@@ -65,10 +66,8 @@ ul{
 .container{
     width: 70%;
     margin: 0 auto;
-    height: 1500px;
-    background-color: chartreuse;
     margin-top: 40px;
-    padding-bottom: 80px;
+    
 }
 
 .wrap{
@@ -89,30 +88,20 @@ main{
 
 .container-card{
     position: relative;
-    width:32%;
-    height: 45%;
+    width: 33%;
+    padding-bottom: 50px;
 }
 
 .card{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(160, 16, 28);
     position: relative;
 }
 
 .hover-card{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(215, 250, 222);
     position: absolute;
 }
 
 .container-card:hover .hover-card{
     z-index: 1;
-}
-
-.float-left{
-    float: left;
 }
 
 .discount-red{
@@ -130,4 +119,8 @@ main{
     bottom: 10%;
     left: 0;
     z-index: 2;
+}
+
+.card-image{
+    width: 100%;
 }
