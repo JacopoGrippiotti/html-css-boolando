@@ -89,7 +89,7 @@ main{
 .container-card{
     position: relative;
     width: 33%;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .card{
@@ -134,4 +134,24 @@ main{
     top: 5px;
     font-size: 35px;
     z-index: 2;
+}
+
+.gray-content{
+    color: gray;
+    font-size: 11px;
+}
+
+.black-content{
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.description-price-red{
+    color: red;
+}
+
+.description-discount-underlined{
+    color: black;
 }
