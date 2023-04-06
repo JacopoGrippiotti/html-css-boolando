@@ -89,7 +89,7 @@ main{
 .container-card{
     position: relative;
     width: 33%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .card{
@@ -116,9 +116,10 @@ main{
 
 .discount-container{
     position: absolute;
-    bottom: 15%;
+    bottom: 17%;
     left: 0;
     z-index: 2;
+    color: white;
 }
 
 .card-image{
