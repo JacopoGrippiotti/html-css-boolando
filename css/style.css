@@ -31,15 +31,12 @@ nav{
     height: 25px;
 }
 
-.left-nav{
-    width: 10%;
-}
-
 .left-nav li{
     padding-right: 5px;
 }
 
-.right-nav{  
+.right-nav,
+.left-nav {  
     width: 10%;
 }
 
@@ -112,4 +109,25 @@ main{
 
 .container-card:hover .hover-card{
     z-index: 1;
+}
+
+.float-left{
+    float: left;
+}
+
+.discount-red{
+    background-color: red;
+    padding: 10px;
+}
+
+.discount-green{
+    background-color: green;
+    padding: 10px;
+}
+
+.discount-container{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    z-index: 2;
 }
