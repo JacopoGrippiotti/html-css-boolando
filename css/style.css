@@ -157,3 +157,9 @@ main{
     color: rgba(0, 0, 0, 0.564);
     text-decoration-line: line-through;
 }
+
+footer{
+    color: white;
+    background-color: black;
+    height: 90px;
+}
