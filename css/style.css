@@ -116,11 +116,22 @@ main{
 
 .discount-container{
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 0;
     z-index: 2;
 }
 
 .card-image{
     width: 100%;
+}
+
+.heart-container{
+    background-color: white;
+    position: absolute;
+    color: black;
+    padding: 5px 13px;
+    right: 0;
+    top: 5px;
+    font-size: 35px;
+    z-index: 2;
 }
